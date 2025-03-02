@@ -21,3 +21,13 @@ def test_empty_string():
 # is_palindrome returns True if called with "a".
 def test_string_a():
     assert is_palindrome("a")
+
+
+# is_palindrome returns True if called with "a".
+def test_string_a():
+    assert is_palindrome("a")
+
+
+# is_palindrome returns True if called with "bb"
+def test_string_bb():
+    assert is_palindrome("bb")
