@@ -12,5 +12,7 @@ def test_not_string():
         is_palindrome(7172)
 
 
+# is_palindrome returns False when called with an empty string.
 
-
+def test_empty_string():
+    assert not is_palindrome("")
