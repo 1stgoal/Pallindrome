@@ -46,3 +46,8 @@ def test_string_laval():
 # is_palindrome returns False when called with "toronto".
 def test_string_toronto():
     assert not is_palindrome("toronto")
+
+
+# is_palindrome returns True when called with "Able was I ere I saw Elba".
+def test_string_able():
+    assert is_palindrome("Able was I ere I saw Elba")
