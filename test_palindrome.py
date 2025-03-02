@@ -16,3 +16,8 @@ def test_not_string():
 
 def test_empty_string():
     assert not is_palindrome("")
+
+
+# is_palindrome returns True if called with "a".
+def test_string_a():
+    assert is_palindrome("a")
