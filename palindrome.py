@@ -23,3 +23,5 @@ def is_palindrome(value: str) -> bool:
         # converting both the strings to lowercase and comparing original string with the reversed string.
         if result.lower() == value.lower():
             return True
+        else:
+            return False

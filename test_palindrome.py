@@ -31,3 +31,8 @@ def test_string_a():
 # is_palindrome returns True if called with "bb"
 def test_string_bb():
     assert is_palindrome("bb")
+
+
+# is_palindrome returns False is called with "abc".
+def test_string_abc():
+    assert not is_palindrome("abc")
