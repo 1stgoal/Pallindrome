@@ -36,3 +36,8 @@ def test_string_bb():
 # is_palindrome returns False is called with "abc".
 def test_string_abc():
     assert not is_palindrome("abc")
+
+
+# is_palindrome returns True when called with "laval".
+def test_string_laval():
+    assert is_palindrome("laval")
